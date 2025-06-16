@@ -4,64 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f9f9ff;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-    header {
-      background: #007BFF;
-      color: white;
-      padding: 20px 0;
-      text-align: center;
-    }
-    nav {
-      text-align: center;
-      margin: 40px 0;
-    }
-    nav button {
-      background-color: #007BFF;
-      color: white;
-      border: none;
-      padding: 15px 25px;
-      margin: 10px;
-      border-radius: 10px;
-      cursor: pointer;
-      font-size: 18px;
-      transition: background-color 0.3s;
-    }
-    nav button:hover {
-      background-color: #0056b3;
-    }
-    section {
-      display: none;
-      max-width: 800px;
-      margin: 30px auto;
-      padding: 0 20px;
-    }
-    section.active {
-      display: block;
-    }
-    h2 {
-      color: #007BFF;
-      margin-bottom: 10px;
-    }
-    a {
-      color: #007BFF;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    footer {
-      background: #f1f1f1;
-      padding: 20px;
-      text-align: center;
-      font-size: 14px;
-    }
-  </style>
+
   <script>
     function showSection(id) {
       document.querySelectorAll('section').forEach(section => {
